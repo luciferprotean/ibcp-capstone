@@ -38,3 +38,9 @@ print(updated_records)
 
 conn.commit()
 conn.close()
+
+st.write("""
+#IBCP Capstone
+#Test deployment
+Checking *italics* and line writes
+""")
