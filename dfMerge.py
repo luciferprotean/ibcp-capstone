@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import csv
 import streamlit as st
 
+# streamlit app url - https://ibcp-capstone-m4juzvznmrsljrroqk7rsv.streamlit.app/ 
 # not required anymore
 
 # df1 = pd.read_csv('calories_upd1.csv')
@@ -40,7 +41,5 @@ conn.commit()
 conn.close()
 
 st.write("""
-#IBCP Capstone
-#Test deployment
-Checking *italics* and line writes
+IBCP CAPSTONE TITLE
 """)
